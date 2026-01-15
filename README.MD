@@ -28,13 +28,13 @@ Projeto desenvolvido no bootcamp **DIO + Binance** com foco em fundamentos de **
 ## 🧩 Arquitetura do fluxo (alto nível)
 
 ```mermaid
-flowchart LR
-  A[Node.js Scripts] --> B[Gera chaves e endereço]
-  B --> C[Importa no Electrum]
-  C --> D[Recebe BTC Testnet via Faucet]
-  D --> E[Envia transação]
-  E --> F[Consulta no Block Explorer]
-
+flowchart LR;
+  A[Node.js Scripts] --> B[Gera chaves e endereço];
+  B --> C[Importa no Electrum];
+  C --> D[Recebe BTC Testnet via Faucet];
+  D --> E[Envia transação];
+  E --> F[Consulta no Block Explorer];
+```
 ---
 
 ## 🧠 Aprendizados
