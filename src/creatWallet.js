@@ -45,3 +45,4 @@ console.log("carteira criada com sucesso!");
 console.log("endereço BTC: ", btcAddress);
 console.log("chave privada (WIF): ", node.toWIF());
 console.log("frase mnemônica: ", mnemonic);
+
